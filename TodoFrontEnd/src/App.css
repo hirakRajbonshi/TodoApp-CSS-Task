@@ -1,0 +1,57 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  padding-top: 0rem;
+}
+
+#todo-entry{
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+  justify-content: space-between;
+  width: 30rem;
+} 
+
+.todo{
+  height: 10em;
+  border : 1px solid goldenrod;
+  box-shadow: 1px 1px 3px whitesmoke;
+  background-color: #292929;
+  border-radius: 10px;  
+  padding: 0.1rem 1.5rem 0.5rem;
+  margin: 1rem;
+}
+
+.todo h3{
+  font-size: 1.2em;
+}
+.todo p{
+  font-size: 0.8em;
+  width: 20rem;
+  text-overflow: ellipsis;
+  overflow: hidden; 
+  white-space:nowrap;
+  margin-bottom: 2rem;
+}
+
+.todo button{
+  width: 4rem;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
